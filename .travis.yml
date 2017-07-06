@@ -1,5 +1,6 @@
 language: java
-script: ./mvnw clean install
+script:	mvn verify
+
 
 cache:
   directories:
